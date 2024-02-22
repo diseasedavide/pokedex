@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <main id="main">
+      <div class="sfondo-bianco">
+        <input type="text" name="ricerca" id="nomePokemon" value="" placeholder="Inserisci il Pokemon"/>
+        <!-- bottone chiamata -->
+        <button class="pulla" onclick="getRandomPokemon()">Get</button>
+        <!-- struttura -->
+      </div>
+      <div class="top-container">
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div></div>
+      <div></div>
+      <section class="sezione1">
+        <div id="pokemon-container"></div>
+        <div class="contenitore-sezione1">
+          <div class="contenitore-tastiera">
+            <div class="tastiera-laterale">
+              <span class="numero">1</span>
+              <span class="numero">2</span>
+              <span class="numero">3</span>
+              <span class="numero">4</span>
+              <span class="numero">5</span>
+              <span class="numero">6</span>
+              <span class="numero">7</span>
+              <span class="numero">8</span>
+              <span class="numero">9</span>
+              <span class="numero">,</span>
+              <span class="numero">0</span>
+            </div>
+            <!-- frecce -->
+            <div class="contenitore-simboli">
+              <div>
+                <div class="simboli">%</div>
+              </div>
+              <div class="doppio-div">
+                <div class="simboli">X</div>
+                <div class="simboli">-</div>
+              </div>
+              <div>
+                <div class="simboli btn-plus">+</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div class="bottoni-rossi">
+        <span class="btn-red">ON</span>
+        <span class="btn-red">OFF</span>
+        <span class="btn-red">QUIT</span>
+      </div>
+      <section class="sezione2">
+        <!-- tastiera -->
+        <div class="tastiera-bottom">
+          <span class="btn-tastiera">A</span>
+          <span class="btn-tastiera">B</span>
+          <span class="btn-tastiera">C</span>
+          <span class="btn-tastiera">D</span>
+          <span class="btn-tastiera">E</span>
+          <span class="btn-tastiera">F</span>
+          <span class="btn-tastiera">G</span>
+          <span class="btn-tastiera">H</span>
+          <span class="btn-tastiera">I</span>
+          <span class="btn-tastiera">J</span>
+          <span class="btn-tastiera">K</span>
+          <span class="btn-tastiera">L</span>
+          <span class="btn-tastiera">M</span>
+          <span class="btn-tastiera">N</span>
+          <span class="btn-tastiera">O</span>
+          <span class="btn-tastiera">P</span>
+          <span class="btn-tastiera">Q</span>
+          <span class="btn-tastiera">R</span>
+          <span class="btn-tastiera">S</span>
+          <span class="btn-tastiera">T</span>
+          <span class="btn-tastiera">U</span>
+          <span class="btn-tastiera">V</span>
+          <span class="btn-tastiera">W</span>
+          <span class="btn-tastiera">X</span>
+          <span class="btn-tastiera">Y</span>
+          <span class="btn-tastiera">Z</span>
+        </div>
+        <div class="pulsanti">
+          <!-- pulsante verde -->
+          <div class="btn-colonna">
+            <span class="enter">ENTER</span>
+            <span class="equal">=</span>
+          </div>
+          <div class="btn-clear">
+            <span>SPACE/CLEAR</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
