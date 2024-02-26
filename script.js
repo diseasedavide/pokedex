@@ -47,14 +47,19 @@ async function getRandomPokemon() {
 
   } catch (error) {
     console.log("Errore");
+    const pokemonContainer = document.getElementById("pokemon-container");
+    pokemonContainer.innerHTML = "";
+    pokemonContainer.classList.add("container-errore")
     const immagineErrore = document.createElement("img");
     immagineErrore.src = "assets/rocket.gif";
     immagineErrore.classList.add("imgError");
-    main.appendChild(immagineErrore);
     const btn = document.createElement("button");
     btn.classList.add("btn-remove");
     btn.textContent ="Oh no! Il tuo Pokémon non è stato trovatoooo... Cliccami per una seconda chance! "
-    main.appendChild(btn)
+    pokemonContainer.appendChild(immagineErrore);
+    pokemonContainer.appendChild(btn)
+    
+    
     btn.addEventListener("click", function() {
     location.reload();
     })
