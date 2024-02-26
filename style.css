@@ -184,6 +184,7 @@ main {
 .btn-colonna {
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .btn-clear {
