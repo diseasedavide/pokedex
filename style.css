@@ -23,6 +23,19 @@ main {
 
 }
 
+.titolo-container {
+  position: absolute;
+  top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
+}
+
+h1 {
+  text-align: center;
+}
+
 .inserisci {
     font-size: 10px;
 }
@@ -31,6 +44,7 @@ main {
     padding: 10px;
     border-radius: 25px;
     box-shadow: 10px 5px #000;
+    cursor: pointer;
 }
 
 #nomePokemon {
@@ -196,6 +210,7 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .btn-clear {
@@ -231,4 +246,13 @@ main {
 .container-errore {
   display: flex;
   flex-direction: column;
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 480px;
 }

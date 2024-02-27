@@ -43,6 +43,8 @@ const numero8 = document.querySelector(".numero8");
 const numero9 = document.querySelector(".numero9");
 const numero0 = document.querySelector(".numero0");
 const virgola = document.querySelector(".virgola");
+const enter = document.querySelector(".enter");
+const equal = document.querySelector(".equal");
 
 async function getRandomPokemon() {
   let randomNumber = Math.floor(Math.random() * 151) + 1;

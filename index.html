@@ -14,8 +14,18 @@
   </head>
   <body>
     <main id="main">
+      <!-- titolo -->
+      <div class="titolo-container">
+        <h1>Pokédex</h1>
+      </div>
       <div class="sfondo-bianco">
-        <input type="text" name="ricerca" id="nomePokemon" value="" placeholder="Inserisci il Pokemon"/>
+        <input
+          type="text"
+          name="ricerca"
+          id="nomePokemon"
+          value=""
+          placeholder="Inserisci il Pokemon"
+        />
         <!-- bottone chiamata -->
         <button class="pulla" onclick="getRandomPokemon()">Get</button>
         <!-- struttura -->
@@ -105,14 +115,17 @@
           <div class="btn-clear">
             <p>
               <span id="spazio">SPACE</span>/<span id="cancella">CLEAR</span>
-              
-              
             </p>
           </div>
         </div>
       </section>
     </main>
+    <footer>
+      <p>&copy; Davide Rinna</p>
+    </footer>
 
     <script src="script.js"></script>
   </body>
 </html>
+
+<!-- pulsante enter -->
