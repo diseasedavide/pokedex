@@ -60,7 +60,6 @@ async function getRandomPokemon() {
       response = await fetch(
         "https://pokeapi.co/api/v2/pokemon/" + scelta.toLowerCase()
       );
-      nome.value = "";
     }
     console.log(response);
     const data = await response.json();
@@ -108,10 +107,6 @@ async function getRandomPokemon() {
       location.reload();
     });
   }
-}
-
-function getRandomNumber(min, max) {
-  return Math.floor(Math.random() * (max - min + 1)) + min;
 }
 
 a.addEventListener("click", function () {
