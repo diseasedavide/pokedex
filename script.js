@@ -107,6 +107,9 @@ async function getRandomPokemon() {
       location.reload();
     });
   }
+  nome.value="";
+  array=[];
+  console.log(nome.value);
 }
 
 a.addEventListener("click", function () {

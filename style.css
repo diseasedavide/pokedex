@@ -217,10 +217,16 @@ h1 {
 
 #primoSpan, #secondoSpan, .enter, .equal {
   background-color: #85c230ff;
-  width: 60px;
+  width: 75px;
   height: 22px;
   position: relative;
   left: -50px;
+}
+
+.enter,.equal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
